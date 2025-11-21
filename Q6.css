@@ -1,0 +1,31 @@
+body { 
+  font-family:Arial; 
+}
+.nav {
+  background:#333;
+  overflow:hidden;
+}
+.nav a, .dropbtn {
+  padding:14px 20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+.dropdown {
+  position:relative;
+  display:inline-block;
+} 
+.dropdown-content {
+  display:none;
+  position:absolute;
+  background:#f1f1f1;
+  min-width:150px;
+}
+.dropdown-content a {
+  color:black;
+  padding:10px;
+  display:block;
+}
+.dropdown:hover .dropdown-content {
+  display:block;
+}

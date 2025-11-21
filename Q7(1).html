@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Multiplication</title>
+</head>
+<body>
+  <input type="number" id="num">
+  <button onclick="table()">Show Table</button>
+  <p id="out"></p>
+
+  <script>
+  function table(){
+    let n = document.getElementById("num").value;
+    let result = "";
+    for(let i=1;i<=10;i++){
+        result += `${n} x ${i} = ${n*i}<br>`;
+    }
+    document.getElementById("out").innerHTML = result; 
+  }
+  </script>
+</body>
+</html>
